@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeImage(View view) {
 
-        ImageView imageView = (ImageView) findViewById(R.id.myImage);
-        imageView.setImageResource(R.drawable.metallica2);
+        ImageView imageView = findViewById(R.id.imageView);
+        imageView.setImageResource(R.drawable.image);
     }
 
 
